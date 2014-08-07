@@ -7,7 +7,7 @@ public class Task5 {
 	public static void main(String[] args) {
 	System.out.println(concat("Nastya","Ostapova"));
 	System.out.println(getSymbolByIndex("My new favorite game"));
-	System.out.println(compare("Vika","Havryliuk"));
+	System.out.println(compare("vika6","vika14"));
 	System.out.println(stringToSubstring("World", "orl"));
 	System.out.println(stringStartsWithSubString("MyFavorite poem", "My"));
 	System.out.println(isEqualsToAnotherString("New word","another new word"));
