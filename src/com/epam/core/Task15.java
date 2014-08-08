@@ -21,7 +21,9 @@ public class Task15 {
 	}
 	
 	public static void displayArray(int[][] arr){
-		System.out.println(Arrays.toString(arr));
+		for (int[] a: arr){
+			System.out.println(Arrays.toString(a));
+		}
 	}
 	
 //	public static void transposeMatrix(int[][] arr){
