@@ -51,7 +51,7 @@ public class Task14 {
 	
 	public static boolean isArrayRagged(double[][] array) {
 		for (int i = 1; i < array.length;i++){
-			if (array[0].length != array[1].length) return true;	
+			if (array[i].length != array[0].length) return true;	
 		}
 		return false;		
 	}

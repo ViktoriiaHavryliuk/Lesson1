@@ -22,6 +22,9 @@ public class Task13 {
 		System.out.println("Sorted with bubble sort method array is: ");
 		sortbubbleSort(array);
 		displayArray(array);
+		
+		System.out.println("New concatenate String: ");
+		System.out.println(concatString(array));
 
 	}
 	
@@ -45,6 +48,14 @@ public class Task13 {
 	
 	public static void displayArray(String[] arr){
 		System.out.println(Arrays.toString(arr));
+	}
+	
+	public static String concatString (String [] array){
+		StringBuilder sb = new StringBuilder();
+		for (String lines: array){
+		   sb.append(lines);
+		}
+		return sb.toString();
 	}
 
 }
